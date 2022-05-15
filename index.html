@@ -5,77 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <img src="House.jpg" alt="Фото" width="200" />
-    <h1>Владилен Минин</h1>
-    <p>
-      <em>Я основатель одноименного <strong>Ютуб канал</strong></em>
-    </p>
-    <p>Я люблю путешествовать, заниматься спортом и программировать</p>
+    <div class="container">
+      <div class="info">
+        <img src="House.jpg" alt="Фото" class="avatar" />
+        <h1>Роберт Эдвин Хаус</h1>
+        <p>
+          В 22 года (в 2042-м) он основал компанию «РобКо Индастриз»,
+          занимавшуюся производством роботов и ставшую спустя 5 лет одной из
+          наиболее доходных корпораций в мире
+        </p>
+        <p>
+          к 2050 году он создал огромную экономическую империю, поглотившую, в
+          частности, компании Абраксодайн Кемикал, производившую бытовую и
+          промышленную химию, и РЕПКОНН Эйроспейс, производившую авиационную и
+          космическую технику, и заработал свыше 30 миллиардов долларов.
+        </p>
+      </div>
 
-    <hr />
+      <hr />
+      <div class="social">
+        <h2>Мои социальные сети</h2>
+        <ul type="square">
+          <li>
+            <a target="_blank" href="https://instagram.com/vladilen.minin"
+              >instagram</a
+            >
+          </li>
+          <li>
+            <a target="_blank" href="https://t.me/js_by_vladilen">telegram</a>
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <h2>Мои хобби</h2>
+      <ol type="I">
+        <li>Блоггерство</li>
+        <li>Быстрая езда на машинах</li>
+        <li>Спорт</li>
+        <li>Путешествия</li>
+      </ol>
+      <hr />
+      <h2>Опыт</h2>
+      <table cellspacing="15">
+        <tr>
+          <th>Компания</th>
+          <th>Должность</th>
+          <th>Год</th>
+        </tr>
+        <tr>
+          <td>EPAM</td>
+          <td>Software Engineer</td>
+          <td>2016-2017</td>
+        </tr>
+        <tr>
+          <td>Software</td>
+          <td>Lead</td>
+          <td>2017-2019</td>
+        </tr>
+      </table>
 
-    <h2>Мои социальные сети</h2>
-    <ul type="square">
-      <li>
-        <a target="_blank" href="https://instagram.com/vladilen.minin"
-          >instagram</a
-        >
-      </li>
-      <li>
-        <a target="_blank" href="https://t.me/js_by_vladilen">telegram</a>
-      </li>
-    </ul>
-    <hr />
-    <h2>Мои хобби</h2>
-    <ol type="I">
-      <li>Блоггерство</li>
-      <li>Быстрая езда на машинах</li>
-      <li>Спорт</li>
-      <li>Путешествия</li>
-    </ol>
-    <hr />
-    <h2>Опыт</h2>
-    <table cellspacing="15">
-      <tr>
-        <th>Компания</th>
-        <th>Должность</th>
-        <th>Год</th>
-      </tr>
-      <tr>
-        <td>EPAM</td>
-        <td>Software Engineer</td>
-        <td>2016-2017</td>
-      </tr>
-      <tr>
-        <td>Software</td>
-        <td>Lead</td>
-        <td>2017-2019</td>
-      </tr>
-    </table>
+      <h2>Ютуб Курсы</h2>
+      <a href="youtube.html">Посмотреть список</a>
+      <hr />
+      <h2>Связаться со мной</h2>
 
-    <h2>Ютуб Курсы</h2>
-    <a href="youtube.html">Посмотреть список</a>
-    <hr />
-    <h2>Связаться со мной</h2>
-
-    <form action="/">
-      <label for="name">Ваше имя</label>
-      <input type="text" id="name" placeholder="Начните вводить ваше имя..." />
-      <br />
-      <label for="email">Ваш имейл</label>
-      <input
-        type="email"
-        id="email"
-        placeholder="Начните вводить ваше имя..."
-      />
-      <br />
-      <label for="text">Ваше сообщение</label>
-      <br />
-      <textarea name="" id="text" cols="100" rows="5"></textarea>
-      <br />
-      <input type="submit" value="Связаться" />
-    </form>
+      <form action="/">
+        <label for="name">Ваше имя</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Начните вводить ваше имя..."
+        />
+        <br />
+        <label for="email">Ваш имейл</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Начните вводить ваше имя..."
+        />
+        <br />
+        <label for="text">Ваше сообщение</label>
+        <br />
+        <textarea name="" id="text" cols="100" rows="5"></textarea>
+        <br />
+        <input type="submit" value="Связаться" />
+      </form>
+    </div>
   </body>
 </html>
