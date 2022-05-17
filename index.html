@@ -10,89 +10,116 @@
   <body>
     <div class="container">
       <div class="info">
+
         <img src="House.jpg" alt="Фото" class="avatar" />
+        <div class="info-text">
         <h1>Роберт Эдвин Хаус</h1>
         <p>
-          В 22 года (в 2042-м) он основал компанию «РобКо Индастриз»,
-          занимавшуюся производством роботов и ставшую спустя 5 лет одной из
-          наиболее доходных корпораций в мире
+          Я предлагаю хороший социальный пакет, но оплачиваемый отпуск в него не
+          входит.
         </p>
-        <p>
-          к 2050 году он создал огромную экономическую империю, поглотившую, в
-          частности, компании Абраксодайн Кемикал, производившую бытовую и
-          промышленную химию, и РЕПКОНН Эйроспейс, производившую авиационную и
-          космическую технику, и заработал свыше 30 миллиардов долларов.
-        </p>
+        <p>Почему так трудно найти хороших помощников?</p>
+
+        <div class="contacts">
+        <a target="_blank" href="https://instagram.com/mrhouse">instagram</a>
+        |
+
+        <a target="_blank" href="https://t.me/mrhouse">telegram</a>
+      </div>
+        </div>
       </div>
 
-      <hr />
-      <div class="social">
-        <h2>Мои социальные сети</h2>
-        <ul type="square">
+      <div class="card bg-yellow">
+        <h2>Достижения</h2>
+        <ul class="list">
           <li>
-            <a target="_blank" href="https://instagram.com/vladilen.minin"
-              >instagram</a
-            >
+            В 22 года (в 2042-м) он основал компанию «РобКо Индастриз»,
+            занимавшуюся производством роботов и ставшую спустя 5 лет одной из
+            наиболее доходных корпораций в мире.
           </li>
           <li>
-            <a target="_blank" href="https://t.me/js_by_vladilen">telegram</a>
+            К 2050 году он создал огромную экономическую империю, поглотившую, в
+            частности, компании Абраксодайн Кемикал, производившую бытовую и
+            промышленную химию, и РЕПКОНН Эйроспейс, производившую авиационную и
+            космическую технику, и заработал свыше 30 миллиардов долларов.
           </li>
         </ul>
       </div>
-      <hr />
-      <h2>Мои хобби</h2>
-      <ol type="I">
-        <li>Блоггерство</li>
-        <li>Быстрая езда на машинах</li>
-        <li>Спорт</li>
-        <li>Путешествия</li>
-      </ol>
-      <hr />
-      <h2>Опыт</h2>
-      <table cellspacing="15">
-        <tr>
-          <th>Компания</th>
-          <th>Должность</th>
-          <th>Год</th>
-        </tr>
-        <tr>
-          <td>EPAM</td>
-          <td>Software Engineer</td>
-          <td>2016-2017</td>
-        </tr>
-        <tr>
-          <td>Software</td>
-          <td>Lead</td>
-          <td>2017-2019</td>
-        </tr>
-      </table>
+      <div class="card bg-green">
+        <h2>Данные</h2>
+        <table class="table">
+          <tr>
+            <td>Должность</td>
+            <td>Правитель Стрипа Нью-Вегаса</td>
+          </tr>
+          <tr>
+            <td>Рождение</td>
+            <td>25 июня 2020 года</td>
+          </tr>
+          <tr>
+            <td>Род занятий</td>
+            <td>Магнат (ранее)</td>
+          </tr>
+        </table>
+      </div>
+      <div class="card bg-red">
+        <h2>Биография</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://fallout.fandom.com/ru/wiki/Мистер_Хаус"
+              >https://fallout.fandom.com/ru/wiki/Мистер_Хаус</a
+            >
+          </li>
+        </ul>
+      </div>
 
-      <h2>Ютуб Курсы</h2>
-      <a href="youtube.html">Посмотреть список</a>
-      <hr />
-      <h2>Связаться со мной</h2>
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+<div class="row">
+        <form action="/">
+          <div class="form-group">
+            <label for="name">Ваше имя</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Введите ваше имя..."
+              size="25"
+            />
+          </div>
 
-      <form action="/">
-        <label for="name">Ваше имя</label>
-        <input
-          type="text"
-          id="name"
-          placeholder="Начните вводить ваше имя..."
-        />
-        <br />
-        <label for="email">Ваш имейл</label>
-        <input
-          type="email"
-          id="email"
-          placeholder="Начните вводить ваше имя..."
-        />
-        <br />
-        <label for="text">Ваше сообщение</label>
-        <br />
-        <textarea name="" id="text" cols="100" rows="5"></textarea>
-        <br />
-        <input type="submit" value="Связаться" />
-      </form>
+          <div class="form-group">
+            <label for="email">Ваш имейл</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Введите email..."
+              size="25"
+            />
+          </div>
+        </div>
+          <div class="form-group">
+            <label for="text">Ваше сообщение</label>
+
+            <textarea
+              name=""
+              id="text"
+              cols="100"
+              rows="5"
+              placeholder="Оставьте ваше сообщение..."
+            ></textarea>
+          </div>
+          <input class="btn" type="submit" value="Связаться" />
+        </form>
+      </div>
+
+      <div class="position">
+        <div class="box"></div>
+      </div>
+
+      
     </div>
+
+
+    <div style="margin-bottom: 500px; background-color: red"></div>
   </body>
 </html>
